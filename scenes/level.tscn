@@ -38,31 +38,35 @@ position = Vector2(653, 388)
 [node name="Borders" type="Node2D" parent="."]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D"]
 position = Vector2(1179, 322)
 shape = SubResource("RectangleShape2D_w8frs")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Borders"]
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2"]
 position = Vector2(-25, 324)
 shape = SubResource("RectangleShape2D_w8frs")
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="Borders"]
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3"]
 position = Vector2(577.25, -14)
 shape = SubResource("RectangleShape2D_mx8sn")
 
 [node name="StaticBody2D4" type="StaticBody2D" parent="Borders"]
+collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4"]
 position = Vector2(577.25, 658)
 shape = SubResource("RectangleShape2D_mx8sn")
 
 [node name="MeteorTimer" type="Timer" parent="."]
-wait_time = 0.097
+wait_time = 0.25
 autostart = true
 
 [node name="Meteors" type="Node2D" parent="."]

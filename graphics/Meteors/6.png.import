@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4md7ecs14x1i"
-path="res://.godot/imported/meteorGrey_big2.png-057bbe655b9c4a894f4bdd94e7342899.ctex"
+uid="uid://d3lu0ooswdtti"
+path="res://.godot/imported/6.png-886fd062df5e892a6a23c9d2aeb28acf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/Meteors/meteorGrey_big2.png"
-dest_files=["res://.godot/imported/meteorGrey_big2.png-057bbe655b9c4a894f4bdd94e7342899.ctex"]
+source_file="res://graphics/Meteors/6.png"
+dest_files=["res://.godot/imported/6.png-886fd062df5e892a6a23c9d2aeb28acf.ctex"]
 
 [params]
 
