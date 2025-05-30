@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://jp4nqcp3h7mh"]
+[gd_scene load_steps=6 format=3 uid="uid://dr4famfwrrjvc"]
 
+[ext_resource type="Texture2D" uid="uid://cqno6x1lr4hid" path="res://graphics/Effects/fire00.png" id="1_w8frs"]
 [ext_resource type="PackedScene" uid="uid://b78t3xprohebj" path="res://scenes/player.tscn" id="2_mx8sn"]
 
 [sub_resource type="GDScript" id="GDScript_w8frs"]
@@ -33,6 +34,7 @@ script = SubResource("GDScript_w8frs")
 [node name="BG" type="Sprite2D" parent="."]
 position = Vector2(577, 323)
 scale = Vector2(72.25, 16.1)
+texture = ExtResource("1_w8frs")
 
 [node name="Player" parent="." instance=ExtResource("2_mx8sn")]
 position = Vector2(653, 388)

@@ -1,11 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://b78t3xprohebj"]
+[gd_scene load_steps=2 format=3 uid="uid://b78t3xprohebj"]
 
 [ext_resource type="Texture2D" uid="uid://c0jfw3nef77ph" path="res://graphics/ship/playerShip1_red.png" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://bnbgxlsspih4w" path="res://scenes/player.gd" id="1_g2els"]
 
 [node name="Player" type="CharacterBody2D"]
 collision_mask = 6
-script = ExtResource("1_g2els")
 
 [node name="PlayerImage" type="Sprite2D" parent="."]
 texture = ExtResource("1_3vyb7")
